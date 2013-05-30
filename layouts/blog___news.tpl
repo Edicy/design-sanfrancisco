@@ -8,6 +8,16 @@
 <div id="wrap">
 	{% include "Header" %}
 	<div class="content wrapper cf text-body">
+        {% if tags %}
+            <div class="tagged-list-header">
+                <div class="header-tag-icon"></div>
+                {% if tags == empty %}
+                    {{ "no_posts_tagged" | lc }}
+                {% else %}
+                    {{ "posts_tagged" | lc }} '{{ tags | sort:"name" | map:"name" | join:"', '"}}'.
+                {% endif %}
+            </div>
+        {% endif %}
 		<div class="centered-header cf{% if editmode %} centered-header-wide{% endif %}">
             <h1>
     			<a href="{{ articles.first.url }}">{{articles.first.title}}</a>

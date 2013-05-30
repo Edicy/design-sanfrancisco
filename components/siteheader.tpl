@@ -11,4 +11,5 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
-<title>{% if article %}{{ article.title }} — {{page.site_title}}{% else %}{{ page.title }}{% unless site.root_item.selected? %} - {{page.site_title}}{% endunless %}{% endif %}</title>
+<title>{% if article %}{{ article.title }} — {{page.site_title}}{% else %}{% unless site.root_item.selected? %}{{ page.title }} - {% endunless %}{{page.site_title}}{% endif %}</title>
+<script src="{{ javascripts_path }}/modernizr.js"></script>

@@ -17,6 +17,21 @@
         </div>
 		{% editable article.excerpt %}<br />
 		{% editable article.body %}
+        {% if editmode %}
+            <div class="cfx article-tags">
+                <div class="article-tag-icon"></div>
+                {% editable article.tags %}
+            </div>
+          {% else %}
+            {% unless article.tags == empty %}
+                <div class="cfx article-tags">
+                    <div class="article-tag-icon"></div>
+                    {% for tag in article.tags %}
+                        <a href="{{ article.page.url }}/tagged/{{ tag.path }}">{{ tag.name }}</a>{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                </div>
+            {% endunless %}
+        {% endif %}
 		<div class="blog-comment-form">
 			{% commentform %}
                 {% assign comment_name_error = false %}

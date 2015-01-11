@@ -1,1 +1,192 @@
-{"name":"San Francisco","layouts":[{"component":true,"title":"Langmenu","layout_name":"Langmenu","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"Logo","layout_name":"Logo","content_type":"component","file":"components/logo.tpl"},{"component":true,"title":"Mainmenu","layout_name":"Mainmenu","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"Submenu","layout_name":"Submenu","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"Header","layout_name":"Header","content_type":"component","file":"components/header.tpl"},{"component":true,"title":"Search","layout_name":"Search","content_type":"component","file":"components/search.tpl"},{"component":true,"title":"Footer","layout_name":"Footer","content_type":"component","file":"components/footer.tpl"},{"component":false,"title":"Front Page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog article","layout_name":"blog_article","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"SiteHeader","layout_name":"SiteHeader","content_type":"component","file":"components/siteheader.tpl"},{"component":true,"title":"JS","layout_name":"JS","content_type":"component","file":"components/js.tpl"}],"author":"T\u00f5nu Runnel","assets":[{"kind":"images","content_type":"image/png","filename":"body-ul-bullet.png","file":"images/body-ul-bullet.png"},{"kind":"images","content_type":"image/png","filename":"search.png","file":"images/search.png"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"javascripts","content_type":"text/javascript","filename":"application.js","file":"javascripts/application.js"},{"kind":"assets","content_type":"font/woff","filename":"BebasNeue-webfont.woff","file":"assets/BebasNeue-webfont.woff"},{"kind":"assets","content_type":"font/ttf","filename":"BebasNeue-webfont.ttf","file":"assets/BebasNeue-webfont.ttf"},{"kind":"assets","content_type":"font/eot","filename":"bebas_neue_cyrillic-webfont.eot","file":"assets/bebas_neue_cyrillic-webfont.eot"},{"kind":"assets","content_type":"font/woff","filename":"bebas_neue_cyrillic-webfont.woff","file":"assets/bebas_neue_cyrillic-webfont.woff"},{"kind":"assets","content_type":"font/ttf","filename":"bebas_neue_cyrillic-webfont.ttf","file":"assets/bebas_neue_cyrillic-webfont.ttf"},{"kind":"assets","content_type":"font/eot","filename":"BebasNeue-webfont.eot","file":"assets/BebasNeue-webfont.eot"},{"kind":"images","content_type":"image/png","filename":"header-tag.png","file":"images/header-tag.png"},{"kind":"images","content_type":"image/svg+xml","filename":"tag.svg","file":"images/tag.svg"},{"kind":"images","content_type":"image/svg+xml","filename":"header-tag.svg","file":"images/header-tag.svg"},{"kind":"images","content_type":"image/png","filename":"tag.png","file":"images/tag.png"},{"kind":"javascripts","content_type":"text/javascript","filename":"modernizr.js","file":"javascripts/modernizr.js"}],"preview_medium":"http://static.edicy.com/designs/previews/sanfransisco_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/sanfransisco_small.jpg","description":"San Fran"}
+{
+  "description": "San Fran",
+  "name": "San Francisco",
+  "preview_medium": "http://static.edicy.com/designs/previews/sanfransisco_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/sanfransisco_small.jpg",
+  "author": "Tõnu Runnel",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front Page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/header.tpl",
+      "layout_name": "header",
+      "title": "header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/logo.tpl",
+      "layout_name": "logo",
+      "title": "logo"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/bebas_neue_cyrillic-webfont.eot",
+      "kind": "assets",
+      "filename": "bebas_neue_cyrillic-webfont.eot"
+    },
+    {
+      "content_type": "application/x-font-truetype",
+      "file": "assets/bebas_neue_cyrillic-webfont.ttf",
+      "kind": "assets",
+      "filename": "bebas_neue_cyrillic-webfont.ttf"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/bebas_neue_cyrillic-webfont.woff",
+      "kind": "assets",
+      "filename": "bebas_neue_cyrillic-webfont.woff"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/BebasNeue-webfont.eot",
+      "kind": "assets",
+      "filename": "BebasNeue-webfont.eot"
+    },
+    {
+      "content_type": "application/x-font-truetype",
+      "file": "assets/BebasNeue-webfont.ttf",
+      "kind": "assets",
+      "filename": "BebasNeue-webfont.ttf"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/BebasNeue-webfont.woff",
+      "kind": "assets",
+      "filename": "BebasNeue-webfont.woff"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag.svg",
+      "kind": "assets",
+      "filename": "tag.svg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/body-ul-bullet.png",
+      "kind": "images",
+      "filename": "body-ul-bullet.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/search.png",
+      "kind": "images",
+      "filename": "search.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/application.js",
+      "kind": "javascripts",
+      "filename": "application.js"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
+}

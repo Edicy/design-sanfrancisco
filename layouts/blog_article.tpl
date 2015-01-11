@@ -15,8 +15,10 @@
     			<span class="date">{{article.created_at | format_date="long" }}</span>
     		</h1>
         </div>
-		{% editable article.excerpt %}<br />
-		{% editable article.body %}
+        <div data-search-indexing-allowed="true">
+    		{% editable article.excerpt %}<br />
+    		{% editable article.body %}
+        </div>
         {% if editmode %}
             <div class="cfx article-tags">
                 <div class="article-tag-icon"></div>

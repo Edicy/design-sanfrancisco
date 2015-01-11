@@ -7,7 +7,7 @@
 <div id="wrap">
 	{% include "Header" %}
 	<div class="content wrapper cf">
-		<div class="front-body">
+		<div class="front-body" data-search-indexing-allowed="true">
 			{% content %}
 		</div>
 	</div>

@@ -480,7 +480,7 @@ textarea, input { font-family: 'Open Sans', sans-serif; font-size: 1em; }
     margin-right: 7px;
     margin-top: 6px;
 }
-.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.svg .article-tag-icon { background: url('../assets/tag.svg') no-repeat center center; }
 .tagged-list-header {
     border-bottom: 4px solid #7fdabb;
     padding: 17px 0;
@@ -498,7 +498,7 @@ textarea, input { font-family: 'Open Sans', sans-serif; font-size: 1em; }
     margin-top: 4px;
     margin-right: 15px;
 }
-.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.svg .header-tag-icon { background: url('../assets/header-tag.svg') no-repeat center center; }
 .tagged-list-header  a {border: none; text-decoration: none;}
 .tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
 .article-tags .edy-taglist { margin-left: 25px; }

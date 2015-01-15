@@ -99,37 +99,37 @@
   ],
   "assets": [
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/bebas_neue_cyrillic-webfont.eot",
       "kind": "assets",
       "filename": "bebas_neue_cyrillic-webfont.eot"
     },
     {
-      "content_type": "application/x-font-truetype",
+      "content_type": "font/ttf",
       "file": "assets/bebas_neue_cyrillic-webfont.ttf",
       "kind": "assets",
       "filename": "bebas_neue_cyrillic-webfont.ttf"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "font/woff",
       "file": "assets/bebas_neue_cyrillic-webfont.woff",
       "kind": "assets",
       "filename": "bebas_neue_cyrillic-webfont.woff"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/BebasNeue-webfont.eot",
       "kind": "assets",
       "filename": "BebasNeue-webfont.eot"
     },
     {
-      "content_type": "application/x-font-truetype",
+      "content_type": "font/ttf",
       "file": "assets/BebasNeue-webfont.ttf",
       "kind": "assets",
       "filename": "BebasNeue-webfont.ttf"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "font/woff",
       "file": "assets/BebasNeue-webfont.woff",
       "kind": "assets",
       "filename": "BebasNeue-webfont.woff"

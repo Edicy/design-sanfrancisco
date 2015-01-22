@@ -10,6 +10,6 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 <title>{% if article %}{{ article.title }} — {{page.site_title}}{% else %}{% unless site.root_item.selected? %}{{ page.title }} - {% endunless %}{{page.site_title}}{% endif %}</title>
 <script src="{{ javascripts_path }}/modernizr.js"></script>

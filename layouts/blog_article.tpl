@@ -12,7 +12,7 @@
             <h1>
     			{% editable article.title %}
     			{% if article.comments_count > 1 %}<a href="#comments" class="comments-link">({{article.comments_count}})</a>{% endif %}
-    			<span class="date">{{article.created_at | format_date="long" }}</span>
+    			<span class="date">{{article.created_at | format_date: "long" }}</span>
     		</h1>
         </div>
         <div data-search-indexing-allowed="true">

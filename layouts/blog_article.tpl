@@ -46,7 +46,7 @@
                         {% if error == "comment_body_blank" %}{% assign comment_body_error = true %}{% endif %}
                     {%endfor %}
                 {% endunless %}
-                
+
 				<p class="blog-form-row">
 					<label for="blog-comment-name">{{"name"|lc}}</label>
                     {% if comment_name_error %}<span class="comment-row-error">{{ "comment_author_blank" | lc }}</span>{% endif %}

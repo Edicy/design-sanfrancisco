@@ -4,7 +4,7 @@
 <meta name="copyright" content="{{ site.copyright }}" />
 <meta name="author" content="{{ site.author }}" />
 {% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,700italic,300italic&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,700italic,300italic&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
 {% stylesheet_link "style.css?1" %}
 <!--[if lt IE 8]>{% stylesheet_link "style_ie.css?2" %}<![endif]-->
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
